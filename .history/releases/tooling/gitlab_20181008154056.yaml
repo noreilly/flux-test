@@ -11,5 +11,3 @@ spec:
   chartGitPath: gitlab
   releaseName: gitlab
   values:
-    global:
-      initialRootPassword: 34ascdasdddf  
