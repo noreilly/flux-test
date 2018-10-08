@@ -1,4 +1,0 @@
-dependencies:
-  - name: gitlab
-    version: 0.1.10
-    repository: https://storage.googleapis.com/pd-stable-helm-charts

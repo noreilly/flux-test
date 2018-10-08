@@ -1,0 +1,6 @@
+dependencies:
+- name: gitlab
+  repository: https://storage.googleapis.com/pd-stable-helm-charts
+  version: 0.1.10
+digest: sha256:830b9189144c6db817667e5a2294cfffe516ba8a3ef7ecb07d160540b50d39f1
+generated: 2018-10-08T15:43:54.652300531+01:00
