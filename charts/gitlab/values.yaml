@@ -1,8 +1,8 @@
 global:
   initialRootPassword: 34ascdasdddf
   hosts:
-    domain: {{ domain }}
+    domain: git.tooling.shipyardtech.com
     https: true
   ingress:
     tls:
-      secretName: {{ ingress.tls.secretName }}
+      secretName: "letsencrypt-staging-certificate"
