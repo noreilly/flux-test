@@ -1,6 +1,5 @@
 global:
-  initialRootPassword:
-{{ global.initialRootPassword | toYaml | indent(2) }}
+  initialRootPassword: 34ascdasdddf
   hosts:
     domain: {{ domain }}
     https: true
