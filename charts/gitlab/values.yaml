@@ -1,0 +1,9 @@
+global:
+  initialRootPassword:
+{{ global.initialRootPassword | toYaml | indent(2) }}
+  hosts:
+    domain: {{ domain }}
+    https: true
+  ingress:
+    tls:
+      secretName: {{ ingress.tls.secretName }}
